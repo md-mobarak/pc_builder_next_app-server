@@ -79,6 +79,7 @@ async function run() {
   } catch (err) {
     console.log(err);
   }
+  module.exports = app;
 }
 
 run().catch(console.dir);
